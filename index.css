@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Poppins', sans-serif;
+}
+
+.entire_nav_bar {
+    background-color: white;
+    width: 90%;
+    position: fixed;
+    padding: 10px
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+nav {
+    float:right;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 155px;
+    padding-top: 25px;
+}
+
+nav > ul > li > a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #818181;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+#title_card {
+    font-size: 150px;
+    color: #79AC37;
+
+
+}
+#image_and_title {
+    padding: 15%;
+}
+#image_and_title >img, #image_and_title > #left_side_container{
+    display: inline-block;
+}
+
+ul {
+    list-style-type:none
+}
+
+li a, button a { 
+    display: block; 
+    text-decoration: none;}
+
+#darkBackground {
+    color: white;
+}
+#sub_title_card {
+    padding: 2% 0;
+ 
+}
+
+#destination {
+    float:right;
+    padding-right: 10%;
+}
+
+#ad {
+    margin:0 10%;
+    float: right;
+}
+

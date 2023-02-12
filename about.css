@@ -1,0 +1,167 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+#header{position: absolute;
+    width: 703px;
+    height: 78px;
+    left: 173px;
+    top: 159px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 105px;
+
+    color: #79AC37;}
+
+#phoneimg{
+    position: absolute;
+    width: 429px;
+    height: 729px;
+    left: 876px;
+    top: 190px;
+}
+
+#sentence{
+    position: absolute;
+    width: 618px;
+    height: 110px;
+    left: 173px;
+    top: 299px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #000000;
+}
+
+#check1{
+    position: absolute;
+    width: 72px;
+    height: 73px;
+    left: 191px;
+    top: 451px;
+}
+
+#check2{
+    position: absolute;
+    width: 72px;
+    height: 73px;
+    left: 191px;
+    top: 569px;
+}
+
+#check3{
+    position: absolute;
+    width: 72px;
+    height: 73px;
+    left: 191px;
+    top: 687px;
+}
+
+#point1{
+    position: absolute;
+    width: 277px;
+    height: 45px;
+    left: 286px;
+    top: 434px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+
+
+    color: #000000;
+}
+
+#point2{
+    position: absolute;
+    width: 439px;
+    height: 45px;
+    left: 286px;
+    top: 552px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #000000;
+}
+
+#point3{
+    position: absolute;
+    width: 296px;
+    height: 45px;
+    left: 286px;
+    top: 670px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #000000;
+}
+
+#imageandtitle>img, #imageandtitle>#leftsidecontainer{
+    display: inline-block;
+}
+
+.entire_nav_bar {
+    background-color: white;
+    width: 90%;
+    position: fixed;
+    padding: 10px
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+nav {
+    float:right;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 155px;
+    padding-top: 25px;
+}
+
+nav > ul > li > a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #818181;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

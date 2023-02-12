@@ -1,0 +1,115 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.entire_nav_bar {
+    background-color: white;
+    width: 90%;
+    position: fixed;
+    padding: 10px
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+nav {
+    float:right;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 155px;
+    padding-top: 25px;
+}
+
+nav > ul > li > a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #818181;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#header {
+  position: absolute;
+  width: 849px;
+  height: 100px;
+  left: 145px;
+  top: 157px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 105px;
+  color: #79AC37;
+}
+
+#actuallist {
+  position: absolute;
+  width: 698px;
+  height: 180px;
+  left: 137px;
+  top: 348px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#twitter {
+  position: absolute;
+  left: 10.07%;
+  right: 86.74%;
+  top: 65.59%;
+  bottom: 37.01%;
+  background: url(image.png);
+}
+
+#instagram {
+  position: absolute;
+  left: 14.93%;
+  right: 81.94%;
+  top: 65.59%;
+  bottom: 37.01%;
+  background: url(image.png);
+}
+
+#facebook {
+  position: absolute;
+  left: 20%;
+  right: 76.88%;
+  top: 65.69%;
+  bottom: 37.11%;
+  background: url(image.png);
+}
+
+#contactus {
+  position: absolute;
+  width: 339px;
+  height: 230px;
+  left: 909px;
+  top: 355px;
+}

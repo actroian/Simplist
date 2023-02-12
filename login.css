@@ -1,0 +1,183 @@
+
+:root{
+    --green: #79AC37;
+    --dark-blue: #3F3D56;
+    --grey: #E6E6E6;
+    padding: 20px;
+    margin: 10px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    position: absolute;
+    width: 660px;
+    height: 180px;
+    left: 196px;
+    top: 231px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 90px;
+    color: var(--green);
+
+}
+
+.subtitle{
+    position: absolute;
+    width: 530px;
+    height: 90px;
+    left: 196px;
+    top: 424px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: black;
+}
+
+.email-label{
+    position: absolute;
+    width: 136.54px;
+    height: 38.1px;
+    left: 196px;
+    top: 549px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark-blue);
+
+}
+
+.password-label{
+    position: absolute;
+    width: 136.54px;
+    height: 38.1px;
+    left: 196px;
+    top: 672.84px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark-blue);
+
+}
+input{
+    background-color: var(--grey);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--dark-blue);
+
+}
+
+.email-field{
+    position: absolute;
+    width: 326px;
+    height: 45.51px;
+    left: 196px;
+    top: 600.86px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark-blue);
+}
+
+
+.password-field{
+    position: absolute;
+    width: 326px;
+    height: 45.51px;
+    left: 196px;
+    top: 724.7px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--dark-blue);
+}
+
+.submit-button{
+
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    left: 196px;
+    top: 825px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+
+    background: var(--dark-blue);
+    border-radius: 3px;
+
+}
+
+.login-image{
+    position: absolute;
+    width: 547px;
+    height: 431px;
+    left: 803px;
+    top: 429px;
+
+}
+
+.entire_nav_bar {
+    background-color: white;
+    width: 90%;
+    position: fixed;
+    padding: 10px
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+nav {
+    float:right;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 155px;
+    padding-top: 25px;
+}
+
+nav > ul > li > a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #818181;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

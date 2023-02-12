@@ -1,0 +1,116 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.entire_nav_bar {
+  background-color: white;
+  width: 90%;
+  position: fixed;
+  padding: 10px
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 155px;
+  padding-top: 25px;
+}
+
+nav>ul>li>a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: #818181;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#header {
+  position: absolute;
+  width: 749px;
+  height: 100px;
+  left: 145px;
+  top: 140px;
+  font-size: 70px;
+  line-height: 105px;
+  color: #79AC37;
+}
+
+#p1 {
+  position: absolute;
+  width: 698px;
+  height: 72px;
+  left: 145px;
+  top: 326px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#p2 {
+  position: absolute;
+  width: 698px;
+  height: 36px;
+  left: 145px;
+  top: 450px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #000000;
+}
+
+#actuallist {
+  position: absolute;
+  width: 585px;
+  height: 101px;
+  left: 145px;
+  top: 495px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#p3 {
+  position: absolute;
+  width: 720px;
+  height: 36px;
+  left: 145px;
+  top: 650px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#actualimage {
+  position: absolute;
+  width: 377px;
+  height: 308px;
+  left: 910px;
+  top: 332px;
+}
